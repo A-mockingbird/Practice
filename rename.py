@@ -10,7 +10,7 @@ if __name__ == "__main__":
     file_list = glob.glob('*.'+extension)
     filetxt = open(os.path.join(dirname, 'defectname.txt'), 'w', encoding='utf-8')
     for index, filename in enumerate(file_list):
-        index = index + 1257
+        index = index + 4273
         str_index = str(index)
         length = len(str_index)
         for i in range(6-length):
